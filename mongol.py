@@ -154,7 +154,7 @@ for host in hostnames:
                 		print FWprint
 			
 			filterIP = FWlist[-2]
-			# we only check the first 3 octecs because of variation in the routers depending on
+			# we only check the first 3 octets because of variation in the routers depending on
 			# firewall status
 			# fuck regex's
 			shortip = filterIP.split(".")
